@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Home, BookOpen, Calendar, Menu, X } from 'lucide-react'
 
 function Side({
@@ -56,7 +56,7 @@ function Side({
       >
         {/* Header */}
         <div className="p-4 border-b border-cyan-700 flex items-center justify-between">
-          <h1 className="text-2xl font-bold">ساهل</h1>
+          <h1 className="text-3xl font-bold">ساهل</h1>
 
           {/* Close (Mobile) */}
           <button
