@@ -8,15 +8,13 @@ function Home() {
 
   const renderContent = () => {
     switch (activeSection) {
-      case 'replies':
-        return <AutoReply />
-      case 'date':
-        return <DateCalc />
-      default:
-        return (
-          <div className="text-center text-gray-500">
-            اختر أداة من القائمة الجانبية
-          </div>
+      
+        case 'date':
+          return <DateCalc />
+          default:
+            return (
+             <AutoReply />
+          
         )
     }
   }
