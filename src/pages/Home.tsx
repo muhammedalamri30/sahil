@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Side from '../components/Side'
 import AutoReply from '../components/AutoReply'
 import DateCalc from '../components/DateCalc'
