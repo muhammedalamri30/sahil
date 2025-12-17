@@ -33,7 +33,7 @@ function Home() {
         
 
         {/* Single Content Area */}
-        <div className=" rounded-2xl shadow-md p-6 min-h-[400px]">
+        <div className=" rounded-2xl shadow-md p-6 min-h-100">
           {renderContent()}
         </div>
 

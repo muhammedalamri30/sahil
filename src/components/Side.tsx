@@ -45,7 +45,7 @@ function Side({
         className={`
           fixed lg:static top-0 right-0
           min-h-screen w-64
-          bg-gradient-to-b from-cyan-800 to-cyan-900
+           from-cyan-800 to-cyan-900
           text-white flex flex-col
           border-l border-cyan-700
           z-50
