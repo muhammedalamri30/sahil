@@ -11,7 +11,6 @@ function Side({
   const [open, setOpen] = useState(false)
 
   const menuItems = [
-    { id: 'home', label: 'الرئيسية', icon: <Home size={20} /> },
     { id: 'replies', label: 'مكتبة الردود', icon: <BookOpen size={20} /> },
     { id: 'date', label: 'حساب تاريخ التجديد', icon: <Calendar size={20} /> },
   ]
@@ -41,11 +40,11 @@ function Side({
       )}
 
       {/* Sidebar */}
-      <aside
+     <aside
         className={`
           fixed lg:static top-0 right-0
           min-h-screen w-64
-           from-cyan-800 to-cyan-900
+          bg-gradient-to-b from-cyan-800 to-cyan-900
           text-white flex flex-col
           border-l border-cyan-700
           z-50
@@ -54,6 +53,7 @@ function Side({
           lg:translate-x-0
         `}
       >
+
         {/* Header */}
         <div className="p-4 border-b border-cyan-700 flex items-center justify-between">
           <h1 className="text-3xl font-bold">ساهل</h1>
