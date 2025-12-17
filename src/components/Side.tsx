@@ -1,5 +1,5 @@
 import  { useState } from 'react'
-import { Home, BookOpen, Calendar, Menu, X } from 'lucide-react'
+import { BookOpen, Calendar, Menu, X } from 'lucide-react'
 
 function Side({
   onSelect,
